@@ -1,0 +1,15 @@
+body {
+    font-size: 20px;
+}
+nav, .footer{
+    background-color: black;
+    
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-text {
+        color: red !important;
+}

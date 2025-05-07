@@ -1,0 +1,172 @@
+[04-Mar-2025 09:16:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'theamedi_dwayne'@'localhost' (using password: YES) in /home/theamedi/public_html/config/constants.php:11
+Stack trace:
+#0 /home/theamedi/public_html/config/constants.php(11): mysqli_connect('localhost', 'theamedi_dwayne', 'TcwN9FBbdI7b')
+#1 /home/theamedi/public_html/admin/login.php(1): include('/home/theamedi/...')
+#2 {main}
+  thrown in /home/theamedi/public_html/config/constants.php on line 11
+[04-Mar-2025 09:16:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'theamedi_dwayne'@'localhost' (using password: YES) in /home/theamedi/public_html/config/constants.php:11
+Stack trace:
+#0 /home/theamedi/public_html/config/constants.php(11): mysqli_connect('localhost', 'theamedi_dwayne', 'TcwN9FBbdI7b')
+#1 /home/theamedi/public_html/admin/login.php(1): include('/home/theamedi/...')
+#2 {main}
+  thrown in /home/theamedi/public_html/config/constants.php on line 11
+[04-Mar-2025 09:16:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'theamedi_dwayne'@'localhost' (using password: YES) in /home/theamedi/public_html/config/constants.php:11
+Stack trace:
+#0 /home/theamedi/public_html/config/constants.php(11): mysqli_connect('localhost', 'theamedi_dwayne', 'TcwN9FBbdI7b')
+#1 /home/theamedi/public_html/admin/login.php(1): include('/home/theamedi/...')
+#2 {main}
+  thrown in /home/theamedi/public_html/config/constants.php on line 11
+[04-Mar-2025 09:16:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'theamedi_dwayne'@'localhost' (using password: YES) in /home/theamedi/public_html/config/constants.php:11
+Stack trace:
+#0 /home/theamedi/public_html/config/constants.php(11): mysqli_connect('localhost', 'theamedi_dwayne', 'TcwN9FBbdI7b')
+#1 /home/theamedi/public_html/admin/login.php(1): include('/home/theamedi/...')
+#2 {main}
+  thrown in /home/theamedi/public_html/config/constants.php on line 11
+[04-Mar-2025 09:17:24 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:17:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'theamedi_dwayne'@'localhost' (using password: YES) in /home/theamedi/public_html/config/constants.php:11
+Stack trace:
+#0 /home/theamedi/public_html/config/constants.php(11): mysqli_connect('localhost', 'theamedi_dwayne', 'TcwN9FBbdI7b')
+#1 /home/theamedi/public_html/admin/partials/navbar.php(3): include('/home/theamedi/...')
+#2 /home/theamedi/public_html/admin/index.php(15): include('/home/theamedi/...')
+#3 {main}
+  thrown in /home/theamedi/public_html/config/constants.php on line 11
+[04-Mar-2025 09:37:54 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:37:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 4
+[04-Mar-2025 09:38:19 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:38:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 4
+[04-Mar-2025 09:38:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:38:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/manage-admin.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 4
+[04-Mar-2025 09:38:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:38:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 4
+[04-Mar-2025 09:39:12 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:39:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 4
+[04-Mar-2025 09:39:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 101
+[04-Mar-2025 09:39:24 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:39:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/manage-admin.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 4
+[04-Mar-2025 09:39:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 101
+[04-Mar-2025 09:45:17 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:45:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 4
+[04-Mar-2025 09:45:29 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:45:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 4
+[04-Mar-2025 09:47:41 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:47:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 4
+[04-Mar-2025 09:47:56 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:47:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 4
+[04-Mar-2025 09:52:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:52:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 4
+[04-Mar-2025 09:52:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/admin/partials/login-check.php on line 7
+[04-Mar-2025 09:54:20 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:54:20 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/admin/partials/login-check.php on line 2
+[04-Mar-2025 09:54:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 13
+[04-Mar-2025 09:54:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:54:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/admin/partials/login-check.php on line 2
+[04-Mar-2025 09:54:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 13
+[04-Mar-2025 09:54:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:54:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/admin/partials/login-check.php on line 2
+[04-Mar-2025 09:54:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 13
+[04-Mar-2025 09:54:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:54:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/admin/partials/login-check.php on line 2
+[04-Mar-2025 09:54:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 13
+[04-Mar-2025 09:56:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:56:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/admin/partials/login-check.php on line 2
+[04-Mar-2025 09:56:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 7
+[04-Mar-2025 09:57:12 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:57:12 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/admin/partials/login-check.php on line 2
+[04-Mar-2025 09:57:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 7
+[04-Mar-2025 09:57:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[04-Mar-2025 09:57:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[04-Mar-2025 09:57:50 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:57:50 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/admin/partials/login-check.php on line 2
+[04-Mar-2025 09:57:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 7
+[04-Mar-2025 09:58:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:58:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 4
+[04-Mar-2025 09:58:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[04-Mar-2025 09:58:54 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:58:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 4
+[04-Mar-2025 09:59:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 09:59:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 4
+[04-Mar-2025 09:59:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 101
+[04-Mar-2025 09:59:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 101
+[04-Mar-2025 10:00:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 101
+[04-Mar-2025 10:00:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 101
+[04-Mar-2025 10:02:25 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 10:02:25 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/admin/partials/login-check.php on line 2
+[04-Mar-2025 10:02:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 6
+[04-Mar-2025 10:05:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 10:05:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/admin/partials/login-check.php on line 3
+[04-Mar-2025 10:05:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 9
+[04-Mar-2025 10:06:51 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 10:06:51 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/admin/partials/login-check.php on line 5
+[04-Mar-2025 10:06:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 11
+[04-Mar-2025 10:09:57 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 10:09:57 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/admin/partials/login-check.php on line 5
+[04-Mar-2025 10:09:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/index.php:2) in /home/theamedi/public_html/admin/partials/login-check.php on line 11
+[04-Mar-2025 10:11:01 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/theamedi/public_html/admin/partials/login-check.php on line 5
+[04-Mar-2025 10:12:12 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/theamedi/public_html/admin/partials/login-check.php on line 5
+[04-Mar-2025 10:12:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[04-Mar-2025 10:15:51 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/theamedi/public_html/admin/partials/login-check.php on line 5
+[04-Mar-2025 10:16:28 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/theamedi/public_html/admin/partials/login-check.php on line 5
+[04-Mar-2025 10:16:29 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 10:16:29 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/admin/partials/login-check.php on line 5
+[04-Mar-2025 10:16:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/manage-admin.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 11
+[04-Mar-2025 10:18:15 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 10:18:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/manage-admin.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 10
+[04-Mar-2025 10:18:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[04-Mar-2025 10:20:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[04-Mar-2025 10:20:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 10:20:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/manage-admin.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 10
+[04-Mar-2025 10:23:20 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/theamedi/public_html/admin/login.php on line 103
+[04-Mar-2025 10:23:25 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/theamedi/public_html/admin/login.php on line 103
+[04-Mar-2025 10:23:25 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/theamedi/public_html/admin/login.php on line 103
+[04-Mar-2025 10:23:25 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/theamedi/public_html/admin/login.php on line 103
+[04-Mar-2025 10:23:26 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/theamedi/public_html/admin/login.php on line 103
+[04-Mar-2025 10:23:28 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/theamedi/public_html/admin/login.php on line 103
+[04-Mar-2025 10:30:00 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/theamedi/public_html/admin/login.php on line 105
+[04-Mar-2025 10:31:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[04-Mar-2025 10:32:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[04-Mar-2025 10:32:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[04-Mar-2025 10:33:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[04-Mar-2025 10:33:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[04-Mar-2025 10:44:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 10:44:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/manage-admin.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 10
+[04-Mar-2025 10:45:57 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[04-Mar-2025 10:45:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/update-password.php:1) in /home/theamedi/public_html/admin/partials/login-check.php on line 10
+[05-Mar-2025 19:35:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[05-Mar-2025 19:43:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[05-Mar-2025 19:45:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[05-Mar-2025 19:45:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/delete-admin.php:1) in /home/theamedi/public_html/admin/delete-admin.php on line 15
+[05-Mar-2025 19:45:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[05-Mar-2025 19:45:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/delete-admin.php:1) in /home/theamedi/public_html/admin/delete-admin.php on line 15
+[05-Mar-2025 21:17:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[07-Mar-2025 10:00:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[10-Mar-2025 08:20:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 106
+[10-Mar-2025 08:21:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[14-Apr-2025 01:11:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 106
+[14-Apr-2025 01:13:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 106
+[14-Apr-2025 01:15:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[14-Apr-2025 01:15:46 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[14-Apr-2025 01:15:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/delete-admin.php:1) in /home/theamedi/public_html/admin/delete-admin.php on line 15
+[14-Apr-2025 01:15:55 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[14-Apr-2025 01:15:55 UTC] PHP Warning:  Undefined array key "id" in /home/theamedi/public_html/admin/delete-admin.php on line 7
+[14-Apr-2025 01:15:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/theamedi/public_html/admin/delete-admin.php:11
+Stack trace:
+#0 /home/theamedi/public_html/admin/delete-admin.php(11): mysqli_query(Object(mysqli), 'DELETE FROM tbl...')
+#1 {main}
+  thrown in /home/theamedi/public_html/admin/delete-admin.php on line 11
+[14-Apr-2025 01:16:59 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/theamedi/public_html/config/constants.php on line 2
+[14-Apr-2025 01:16:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/delete-admin.php:1) in /home/theamedi/public_html/admin/delete-admin.php on line 15
+[14-Apr-2025 01:58:18 UTC] PHP Warning:  Undefined array key "banner_img" in /home/theamedi/public_html/admin/update-project.php on line 57
+[14-Apr-2025 01:59:39 UTC] PHP Warning:  Undefined array key "banner_img" in /home/theamedi/public_html/admin/update-project.php on line 57
+[14-Apr-2025 01:59:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'banner_img' in 'field list' in /home/theamedi/public_html/admin/update-project.php:260
+Stack trace:
+#0 /home/theamedi/public_html/admin/update-project.php(260): mysqli_query(Object(mysqli), 'UPDATE tbl_proj...')
+#1 {main}
+  thrown in /home/theamedi/public_html/admin/update-project.php on line 260
+[14-Apr-2025 02:01:21 UTC] PHP Warning:  Undefined array key "banner_img" in /home/theamedi/public_html/admin/update-project.php on line 56
+[14-Apr-2025 02:01:21 UTC] PHP Warning:  Undefined variable $current_thumbnail in /home/theamedi/public_html/admin/update-project.php on line 127
+[14-Apr-2025 02:01:21 UTC] PHP Warning:  Undefined variable $current_thumbnail in /home/theamedi/public_html/admin/update-project.php on line 198
+[14-Apr-2025 02:31:17 UTC] PHP Warning:  Undefined array key "banner_img" in /home/theamedi/public_html/admin/update-project.php on line 56
+[14-Apr-2025 02:31:17 UTC] PHP Warning:  Undefined variable $current_thumbnail in /home/theamedi/public_html/admin/update-project.php on line 127
+[14-Apr-2025 13:52:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[14-Apr-2025 21:40:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
+[15-Apr-2025 07:38:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/theamedi/public_html/admin/login.php:2) in /home/theamedi/public_html/admin/login.php on line 98
