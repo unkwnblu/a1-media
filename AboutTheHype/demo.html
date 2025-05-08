@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Video Background</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+    body, html { padding: 0; margin: 0; }
+    body { background: #232323; color: #fff; }
+
+    .feature {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      z-index: 0;
+    }
+    h2 {
+        font-size: 65px;
+    }
+
+    p {
+        font-size: 50px;
+    }
+    .feature video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
+      filter: blur(0px);
+      opacity: 1;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      padding-top: 45%;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    @media only screen and (min-width: 36.250em) {
+      .content { width: 60%; padding-top: 35%; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="feature">
+  <!-- Replace 'your-video.mp4' with your actual video path -->
+  <video autoplay muted loop playsinline>
+    <source src="../ATH 3.0.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div class="content">
+    <h2>ABOUT THE HYPE</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pellentesque posuere felis non dapibus. Curabitur vestibulum id mi quis varius. Quisque eleifend ornare mollis. Ut semper nisl turpis, id pulvinar nulla porta quis. Phasellus congue feugiat sem, nec interdum nunc pellentesque eget. Curabitur felis erat, imperdiet non accumsan quis, ultrices dictum massa. Maecenas a ornare odio. Proin nisi ante, finibus sit amet orci vel, aliquam tempus felis. Morbi sed euismod orci, a faucibus magna. Aenean nec turpis a turpis venenatis maximus. Proin consectetur, sapien id pharetra aliquam, neque tortor euismod augue, non bibendum dolor erat sit amet turpis. Aenean id nibh ut ligula consectetur aliquam. Vivamus vitae consectetur nibh. Nullam libero massa, accumsan a augue vel, fringilla interdum massa.
+
+        Mauris ullamcorper mauris eget hendrerit vulputate. Vestibulum varius enim ullamcorper ligula feugiat, eget varius risus accumsan. Nulla posuere sollicitudin congue. Aenean at eros tincidunt, pulvinar libero eget, luctus ante. Maecenas ipsum neque, accumsan vitae fermentum at, placerat in mi. Praesent fringilla lacinia accumsan. Nulla pretium varius quam ut dictum. Integer in magna efficitur neque fringilla egestas vel vitae erat. In fringilla tellus vehicula velit fringilla, nec maximus enim varius. Nunc ut malesuada lacus. Aliquam laoreet urna eu purus suscipit interdum a egestas est.
+        
+        Nunc nec sem a nibh vestibulum sollicitudin. Cras fringilla molestie dignissim. Sed faucibus orci vitae metus mattis tempor. Sed id orci ut elit consectetur tristique. Sed fringilla, arcu sit amet feugiat sodales, sapien nunc vulputate eros, sed commodo sapien urna a tellus. Vestibulum gravida libero quis vehicula vehicula. Ut ac tincidunt purus. Pellentesque quis ipsum erat.
+        
+        Curabitur eu tincidunt arcu. Nam eu lacinia massa. Vivamus a mauris nec erat imperdiet sagittis ut sed purus. Vivamus volutpat viverra justo sit amet malesuada. Phasellus id vulputate nunc. Maecenas ultrices, velit et laoreet aliquet, elit ante molestie elit, non maximus erat quam a sapien. Morbi accumsan sem consectetur mauris consectetur, ut posuere enim rhoncus. Aliquam commodo, nunc eget vulputate dignissim, nisi nibh finibus urna, sed euismod tortor ipsum et neque. Integer rhoncus in arcu et laoreet. Etiam tempor malesuada libero in pretium.
+        
+        Nam eget massa efficitur massa fermentum tempus. Praesent fermentum eros nisi, a commodo purus porttitor sed. Nunc at sodales diam. Nulla facilisi. Proin gravida congue enim, non iaculis nisi interdum vel. Etiam at efficitur libero. Etiam ut est tincidunt sem condimentum tempor. Quisque blandit risus vitae elit luctus aliquam. Integer quis ornare dolor, non scelerisque quam. Phasellus aliquam lorem consectetur, congue orci dignissim, sodales dolor. Etiam mi ligula, tempor ac arcu in, interdum vestibulum massa. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>  
+  </div>
+
+<script>
+  $(function () {
+    const $video = $('.feature video');
+    $(window).on('scroll', function () {
+      let fromTop = $(window).scrollTop();
+      let blurAmount = fromTop / 100;
+      let opacity = 1 - ((fromTop / $('html').height()) * 1.3);
+
+      $video.css({
+        'filter': 'blur(' + blurAmount + 'px)',
+        'opacity': opacity
+      });
+    });
+  });
+</script>
+
+</body>
+</html>

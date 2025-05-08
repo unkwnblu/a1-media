@@ -1,0 +1,83 @@
+
+.container-fluid {
+    padding: 0px 50px;
+}
+
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+}
+
+p span {
+  color: #b45f06;
+}
+
+.event-details li {
+  font-size: 30px;
+}
+
+ .pacifico-tex, p {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal; 
+}
+nav {
+    position: fixed !important;
+    width: 100%;
+    z-index: 10;
+    background: #00000038;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    background: #00000038;
+}
+
+* { box-sizing: border-box; }
+body, html { padding: 0; margin: 0; }
+body { background: #232323; color: #fff; }
+
+.feature {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.feature video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  filter: blur(0px);
+  opacity: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding-top: 100%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 36.250em) {
+  .content { width: 60%; padding-top: 50%; }
+}
