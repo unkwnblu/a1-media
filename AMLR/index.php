@@ -39,13 +39,13 @@
   </div>
   <div class="boxes boxes-3 sticky top-0 h-screen flex flex-col items-center justify-center ">
     <h2 class="text-4xl font-bold"></h2>
-    <p class="mt-2">Join us on Saturday, May 31st at The Clubhouse, VI (Landmark Towers) for an unforgettable night of vibes, community, and music that hits deep. This isn’t just a party—it’s a full-on groove experience, and you don't want to miss it.</p>
+    <p class="mt-2 text-4xl">Join us on Saturday, May 31st at The Clubhouse, VI (Landmark Towers) for an unforgettable night of vibes, community, and music that hits deep. This isn’t just a party—it’s a full-on groove experience, and you don't want to miss it.</p>
   </div>
   <div class="boxes boxes-4 sticky top-0 h-screen flex flex-col items-center justify-center">
     <h2 class="text-4xl font-bold">Ticket Information</h2>
-    <p class="mt-2">
+    <p class="mt-2 text-4xl">
 
-      <ul>
+      <ul class="text-4xl">
         <li>Time:10PM till late</li>
         <li>GA:₦10,000</li>
         <li>Table Reservations:+234 816 803 2026</li>
@@ -61,7 +61,7 @@
         <div class="containers">
           <div class="ticket">
             <i class="fas fa-arrow-right"></i>
-            <p>Entry : Absolutely FREE<p>
+            <p class="text-2xl">Click to buy<p>
             <div class="pic"></div>
             <div class="social">
               <i class="fab fa-twitter"><a href="https://x.com/amapianolnr?s=21&t=qNjn4XGRPh8TTfgHeX7A1w"></a></i>
@@ -79,7 +79,6 @@
   <div class="boxes boxes-5 sticky top-0 h-screen flex flex-col items-center justify-center">
     <h2 class="text-5xl font-bold">PAST EVENTS</h2>
     <p class="mt-2">View Images from Past Amapiano left and right events</p>
-
 
   </div>
 </div>
