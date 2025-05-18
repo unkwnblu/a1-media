@@ -1,13 +1,17 @@
-$(function () {
-    const $video = $('.feature video');
-    $(window).on('scroll', function () {
-      let fromTop = $(window).scrollTop();
-      let blurAmount = fromTop / 100;
-      let opacity = 1 - ((fromTop / $('html').height()) * 1.3);
-
-      $video.css({
-        'filter': 'blur(' + blurAmount + 'px)',
-        'opacity': opacity
-      });
-    });
-  });
+var mySwiper = new Swiper(".swiper-container", {
+  direction: "vertical",
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  grabCursor: true,
+  speed: 1000,
+  parallax: true,
+  autoplay: false,
+  effect: "slide",
+  mousewheel: true
+});
+setTimeout(() => {
+  mySwiper.update();
+}, 100);
