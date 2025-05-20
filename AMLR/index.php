@@ -79,6 +79,44 @@
   <div class="boxes boxes-5 sticky top-0 h-screen flex flex-col items-center justify-center">
     <h2 class="text-5xl font-bold">PAST EVENTS</h2>
     <p class="mt-2">View Images from Past Amapiano left and right events</p>
+    <div class="figbody">
+      <figure>
+    <img src="../static-img/AMLR-1/cover.jpg" alt="AMAPIANO LEFT AND RIGHT">
+    <figcaption>Debut edition</figcaption>
+</figure>
+<figure style="--c:#fff5">
+    <img src="../static-img/AMLR-2/cover.jpg" alt="Mountains">
+    <figcaption>Let the music bind us</figcaption>
+</figure>
+<figure>
+    <img src="https://picsum.photos/id/287/250/300" alt="Mountains">
+    <figcaption>Bring Back The Groove</figcaption>
+</figure>
+<figure style="--c:#fff5">
+    <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+    <figcaption>We Groove Different</figcaption>
+</figure>
+<figure>
+    <img src="https://picsum.photos/id/287/250/300" alt="Mountains">
+    <figcaption>Pretty Girls Love Amapiano</figcaption>
+</figure>
+<figure style="--c:#fff5">
+    <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+    <figcaption>Your Piano is not my Piano</figcaption>
+</figure>
+<figure>
+    <img src="https://picsum.photos/id/287/250/300" alt="Mountains">
+    <figcaption>Lagos to Johannesburg</figcaption>
+</figure>
+<figure style="--c:#fff5">
+    <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+    <figcaption>The Last Dance</figcaption>
+</figure>
+<figure>
+    <img src="https://picsum.photos/id/287/250/300" alt="Mountains">
+    <figcaption>We Dance Again</figcaption>
+</figure>
+    </div>
 
   </div>
 </div>
