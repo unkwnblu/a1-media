@@ -80,40 +80,40 @@
     <h2 class="text-5xl font-bold">PAST EVENTS</h2>
     <p class="mt-2">View Images from Past Amapiano left and right events</p>
     <div class="figbody">
-      <figure>
+<figure>
     <img src="../static-img/AMLR-1/cover.jpg" alt="AMAPIANO LEFT AND RIGHT">
-    <figcaption>Debut edition</figcaption>
+    <figcaption>First Ever edition</figcaption>
 </figure>
-<figure style="--c:#fff5">
+<figure>
     <img src="../static-img/AMLR-2/cover.jpg" alt="Mountains">
     <figcaption>Let the music bind us</figcaption>
 </figure>
 <figure>
-    <img src="https://picsum.photos/id/287/250/300" alt="Mountains">
+    <img src="../static-img/AMLR-3/cover.jpg" alt="Mountains">
     <figcaption>Bring Back The Groove</figcaption>
 </figure>
-<figure style="--c:#fff5">
-    <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+<figure>
+    <img src="../static-img/AMLR-4/cover.jpg" alt="Mountains">
     <figcaption>We Groove Different</figcaption>
 </figure>
 <figure>
-    <img src="https://picsum.photos/id/287/250/300" alt="Mountains">
+    <img src="../static-img/AMLR-5/cover.jpg" alt="Mountains">
     <figcaption>Pretty Girls Love Amapiano</figcaption>
 </figure>
-<figure style="--c:#fff5">
-    <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+<figure >
+    <img src="../static-img/AMLR-6/cover.jpg" alt="Mountains">
     <figcaption>Your Piano is not my Piano</figcaption>
 </figure>
 <figure>
-    <img src="https://picsum.photos/id/287/250/300" alt="Mountains">
+    <img src="../static-img/AMLR-7/cover.jpg" alt="Mountains">
     <figcaption>Lagos to Johannesburg</figcaption>
 </figure>
-<figure style="--c:#fff5">
-    <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+<figure >
+    <img src="../static-img/AMLR-8/cover.jpg" alt="Mountains">
     <figcaption>The Last Dance</figcaption>
 </figure>
 <figure>
-    <img src="https://picsum.photos/id/287/250/300" alt="Mountains">
+    <img src="../static-img/AMLR-9/cover.jpg" alt="Mountains">
     <figcaption>We Dance Again</figcaption>
 </figure>
     </div>
