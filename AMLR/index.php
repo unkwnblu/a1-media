@@ -21,7 +21,7 @@
     <div class="relative">
   <div class="boxes boxes-1 sticky top-0 h-screen flex flex-col items-center justify-center">
     <img src="../static-img/amlr-logo.png" alt="Amapiano Left and Right" srcset="">
-    <h2 class="text-5xl font-bold">BACK TO THE GROOVE</h2>
+    <h2 class="hero-text">BACK TO THE GROOVE</h2>
     <p class="mt-2">
 
 <dotlottie-player
@@ -34,18 +34,18 @@
 ></dotlottie-player></p>
   </div>
   <div class="boxes boxes-2 sticky top-0 h-screen flex flex-col items-center justify-center ">
-    <p class="mt-2 text-4xl">After a brief pause, Amapiano Left and Right is back—and we’re coming in hot with 
+    <p class="mt-2 context-text">After a brief pause, Amapiano Left and Right is back—and we’re coming in hot with 
     Back to the Groove! It's time to reconnect with the rhythm, the basslines, and the unmatched vibe only Amapiano can deliver. Whether you're a die-hard fan or new to the scene, this is your cue to let go, turn up, and move your body to the sounds that have taken over the global dance floor.</p>
   </div>
   <div class="boxes boxes-3 sticky top-0 h-screen flex flex-col items-center justify-center ">
-    <h2 class="text-4xl font-bold"></h2>
-    <p class="mt-2 text-4xl">Join us on Saturday, May 31st at The Clubhouse, VI (Landmark Towers) for an unforgettable night of vibes, community, and music that hits deep. This isn’t just a party—it’s a full-on groove experience, and you don't want to miss it.</p>
+    <h2 class="context-text font-bold"></h2>
+    <p class="mt-2 context-text">Join us on Saturday, May 31st at The Clubhouse, VI (Landmark Towers) for an unforgettable night of vibes, community, and music that hits deep. This isn’t just a party—it’s a full-on groove experience, and you don't want to miss it.</p>
   </div>
   <div class="boxes boxes-4 sticky top-0 h-screen flex flex-col items-center justify-center">
-    <h2 class="text-4xl font-bold">Ticket Information</h2>
-    <p class="mt-2 text-4xl">
+    <h2 class="context-text font-bold">Ticket Information</h2>
+    <p class="mt-2 context-text">
 
-      <ul class="text-4xl">
+      <ul class="context-text">
         <li>Time:10PM till late</li>
         <li>GA:₦10,000</li>
         <li>Table Reservations:+234 816 803 2026</li>
@@ -77,7 +77,7 @@
   </div>
   </div>
   <div class="boxes boxes-5 sticky top-0 h-screen flex flex-col items-center justify-center">
-    <h2 class="text-5xl font-bold">PAST EVENTS</h2>
+    <h2 class="hero-text">PAST EVENTS</h2>
     <p class="mt-2">View Images from Past Amapiano left and right events</p>
     <div class="figbody">
 <figure>

@@ -1,6 +1,13 @@
 body {
   color: #fff;
 }
+.hero-text {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.context-text {
+  font-size: 2rem;
+}
 .boxes {
   padding: 0 5% !important;
 }
@@ -101,7 +108,7 @@ body {
 }
 
 .boxes-5 {
-  padding: 2rem;
+  padding: 2rem !important;
   height: fit-content !important;
 
   &::before {
@@ -114,7 +121,7 @@ body {
     background-position: 70% 30%;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: blur(10px);
+    filter: blur(5px);
     z-index: 0;
   }
 
@@ -178,5 +185,23 @@ figure:hover img {
   padding: 1rem;
   place-content: center;
   box-sizing: border-box;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 850px) {
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 500px) {
+  .hero-text {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.context-text {
+  font-size: 1.4rem;
+}
 }
 
