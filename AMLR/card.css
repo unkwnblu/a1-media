@@ -9,7 +9,9 @@ i {
   font-size: 18px;
   color: #fff;
   will-change: transform;
+  -webkit-transform: scale(0.1);
   transform: scale(0.1);
+  -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 
@@ -43,7 +45,8 @@ body {
   z-index: 99;
   position: absolute;
   top: -10px;
-  left: 32px;
+  left: 63px;
+  display: block;
   width: 16px;
   height: 16px;
   border-radius: 16px;
@@ -54,7 +57,8 @@ body {
   z-index: 99;
   position: absolute;
   bottom: -10px;
-  left: 32px;
+  left: 63px;
+  display: block;
   width: 16px;
   height: 16px;
   border-radius: 16px;
@@ -63,7 +67,7 @@ body {
 .containers .ticket ul {
   z-index: 99;
   position: absolute;
-  left: 39px;
+  left: 70px;
   top: 5px;
   list-style-type: none;
 }
@@ -102,13 +106,14 @@ body {
   font-size: 12px;
   letter-spacing: 1px;
   writing-mode: vertical-lr;
+  -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 .containers .ticket .pic {
   z-index: 100;
   width: 400px;
   height: 200px;
-  background-image: url("../static-img/ath-ticket.png");
+  background-image: url("../static-img/amlr-ticket.png");
   background-size: 100% 100%;
   filter: grayscale(100%);
 }
@@ -116,27 +121,37 @@ body {
   position: absolute;
   left: 60px;
   top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 180px;
   height: 64px;
   border-radius: 80px;
 }
 .containers .ticket .social i:nth-of-type(1) {
+  -webkit-transition-delay: 0.4s;
   transition-delay: 0.4s;
 }
 .containers .ticket .social i:nth-of-type(2) {
+  -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
 .containers .ticket .social i:nth-of-type(3) {
+  -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
 .containers .ticket .social i:nth-of-type(4) {
+  -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
-.containers .ticket .social:hover i {
+.containers .ticket:hover i {
   opacity: 1;
+  -webkit-transform: scale(1);
   transform: scale(1);
 }
 .containers .ticket button {
@@ -145,7 +160,7 @@ body {
   bottom: 14px;
   width: 30px;
   height: 30px;
-  background-color: #DA4D1D;
+  background-color: #25cffa;
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -166,7 +181,7 @@ body {
   filter: grayscale(0);
 }
 .containers .ticket2 .pic {
-  background-image: url("../static-img/ath-ticket.png");
+  background-image: url("../static-img/amlr-ticket.png");
 }
 .containers .ticket2 button {
   background-color: #2b26c3;
@@ -177,87 +192,6 @@ body {
   bottom: 16px;
   right: 16px;
   width: 100px;
-}
-
-/* Tablet: up to 768px */
-@media screen and (max-width: 768px) {
-  .containers .ticket {
-    width: 90%;
-    height: auto;
-  }
-  .containers .ticket h2 {
-    font-size: 40px;
-    right: 90px;
-  }
-  .containers .ticket .fa-arrow-right {
-    font-size: 30px;
-    right: 70px;
-    bottom: 20px;
-  }
-  .containers .ticket p {
-    font-size: 10px;
-    right: 50px;
-    top: 15px;
-  }
-  .containers .ticket .pic {
-    width: 100%;
-    height: 160px;
-    background-size: cover;
-  }
-  .containers .ticket .social {
-    width: 160px;
-    height: 50px;
-    left: 40px;
-  }
-  .containers .ticket button {
-    width: 24px;
-    height: 24px;
-  }
-  .containers .ticket button i {
-    font-size: 2rem;
-  }
-}
-/* Mobile: up to 480px */
-@media screen and (max-width: 480px) {
-  .containers .ticket {
-    width: 95%;
-    height: auto;
-  }
-  .containers .ticket h2 {
-    font-size: 28px;
-    right: 60px;
-  }
-  .containers .ticket .fa-arrow-right {
-    font-size: 24px;
-    right: 50px;
-    bottom: 15px;
-  }
-  .containers .ticket p {
-    font-size: 8px;
-    right: 35px;
-    top: 10px;
-  }
-  .containers .ticket .pic {
-    width: 100%;
-    height: 140px;
-  }
-  .containers .ticket .social {
-    width: 140px;
-    height: 40px;
-    left: 30px;
-  }
-  .containers .ticket button {
-    width: 20px;
-    height: 20px;
-  }
-  .containers .ticket button i {
-    font-size: 1.5rem;
-  }
-  .dr {
-    width: 80px;
-    bottom: 10px;
-    right: 10px;
-  }
 }
 
 /*# sourceMappingURL=card.css.map */
