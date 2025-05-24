@@ -80,42 +80,70 @@
     <h2 class="hero-text">PAST EVENTS</h2>
     <p class="mt-2">View Images from Past Amapiano left and right events</p>
     <div class="figbody">
-<figure>
-    <img src="../static-img/AMLR-1/cover.jpg" alt="AMAPIANO LEFT AND RIGHT">
-    <figcaption>First Ever edition</figcaption>
+      <a href="https://bludevs.pixieset.com/amapianoleftandrightdebutedition/" target="blank">
+        <figure>
+    <img src="../static-img/AMLR-1/cover.jpg" alt="Mountains">
+    <figcaption>Debut Edition</figcaption>
 </figure>
-<figure>
+      </a>
+
+      <a href="https://bludevs.pixieset.com/amapianoleftandrightletthemusicbindus/" target="blank">
+        <figure>
     <img src="../static-img/AMLR-2/cover.jpg" alt="Mountains">
     <figcaption>Let the music bind us</figcaption>
 </figure>
-<figure>
+      </a>
+
+      <a href="https://bludevs.pixieset.com/amapianoleftandrightbringbackthegroove/" target="blank">
+        <figure>
     <img src="../static-img/AMLR-3/cover.jpg" alt="Mountains">
     <figcaption>Bring Back The Groove</figcaption>
 </figure>
+      </a>
+
+      <a href="https://bludevs.pixieset.com/amapianoleftandrightwegroovedifferent/" target="blank">
 <figure>
     <img src="../static-img/AMLR-4/cover.jpg" alt="Mountains">
     <figcaption>We Groove Different</figcaption>
 </figure>
-<figure>
+      </a>
+      <a href="https://bludevs.pixieset.com/amapianoleftandrightprettygirlsloveamapiano/" target="blank">
+        <figure>
     <img src="../static-img/AMLR-5/cover.jpg" alt="Mountains">
     <figcaption>Pretty Girls Love Amapiano</figcaption>
 </figure>
-<figure >
+      </a>
+      <a href="https://bludevs.pixieset.com/amapianoleftandrightyourpianoisnotmypiano/" target="blank">
+        <figure >
     <img src="../static-img/AMLR-6/cover.jpg" alt="Mountains">
     <figcaption>Your Piano is not my Piano</figcaption>
 </figure>
-<figure>
+      </a>
+      <a href="https://bludevs.pixieset.com/amapianoleftandrightlagostojohannesburg/" target="blank">
+        <figure>
     <img src="../static-img/AMLR-7/cover.jpg" alt="Mountains">
     <figcaption>Lagos to Johannesburg</figcaption>
 </figure>
-<figure >
+      </a>
+      <a href="https://bludevs.pixieset.com/amapianoleftandrightthelastdance/" target="blank">
+        <figure >
     <img src="../static-img/AMLR-8/cover.jpg" alt="Mountains">
     <figcaption>The Last Dance</figcaption>
 </figure>
-<figure>
+      </a>
+      <a href="https://bludevs.pixieset.com/amapianoleftandrightwedanceagain/" target="blank">
+        <figure>
     <img src="../static-img/AMLR-9/cover.jpg" alt="Mountains">
     <figcaption>We Dance Again</figcaption>
 </figure>
+      </a>
+
+
+
+
+
+
+
     </div>
 
   </div>
