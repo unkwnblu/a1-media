@@ -16,7 +16,7 @@
             <a class="px-xl-2 px-1" href="<?php echo SITEURL . 'pages/what-we-do.php'; ?>">WHAT WE DO</a>
             <a class="px-xl-2 px-1" href="<?php echo SITEURL . 'pages/projects.php'; ?>">OUR PORTFOLIO</a>
             <a class="px-xl-2 px-1" href="<?php echo SITEURL . 'pages/our-artist.php'; ?>">OUR ARTISTS</a>
-            <a class="px-xl-2 px-1" href="<?php echo SITEURL . 'pages/blog.php'; ?>">OUR EVENTS</a>
+            <a class="px-xl-2 px-1" href="<?php echo SITEURL . 'pages/events.php'; ?>">OUR EVENTS</a>
             <a class="px-xl-2 px-1" href="<?php echo SITEURL . 'pages/socials.php'; ?>">SOCIALS</a>
           </div>
         </div>
@@ -36,7 +36,7 @@
       <li><a class="px-xl-2 px-1" href="<?php echo SITEURL . 'pages/what-we-do.php'; ?>">WHAT WE DO</a></li>
       <li><a class="px-xl-2 px-1" href="<?php echo SITEURL . 'pages/projects.php'; ?>">OUR PORTFOLIO</a></li>
       <li><a class="px-xl-2 px-1" href="<?php echo SITEURL . 'pages/our-artist.php'; ?>">OUR ARTISTS</a></li>
-      <li><a class="px-xl-2 px-1" href="<?php echo SITEURL . 'pages/blog.php'; ?>">OUR EVENTS</a></li>
+      <li><a class="px-xl-2 px-1" href="<?php echo SITEURL . 'pages/events.php'; ?>">OUR EVENTS</a></li>
       <li><a class="px-xl-2 px-1" href="<?php echo SITEURL . 'pages/socials.php'; ?>">SOCIALS</a></li>
     </ul>
 

@@ -49,13 +49,13 @@
         <li>Time:10PM till late</li>
         <li>GA:₦10,000</li>
         <li>Table Reservations:+234 816 803 2026</li>
-        <li>Tickets:[GET TICKETS HERE]  let’s have the link here where they get their tickets.</li>
+        <li>Tickets:[GET TICKETS HERE]</li>
       </ul>
 
 
     </p>
     
-        <div class="container-fluid mt-5 mb-5">
+        <div class="container-fluid mt-5 mb-5 d-none d-lg-block">
     <div class="row">
       <div class="col-12">
         <div class="containers">
@@ -64,9 +64,9 @@
             <p class="text-2xl">Click to buy<p>
             <div class="pic"></div>
             <div class="social">
-              <i class="fab fa-twitter"><a href="https://x.com/amapianolnr?s=21&t=qNjn4XGRPh8TTfgHeX7A1w"></a></i>
-              <i class="fab fa-instagram"><a href="https://www.instagram.com/amapianoleftandright?igsh=MTRxbzdwaWF2dHQ3Mw=="></a></i>
-              <i class="fab fa-tiktok"><a href="https://www.tiktok.com/@amapianoleftandright?_t=ZM-8w04j2aKoS7&_r=1"></a></i>
+              <a href="https://x.com/amapianolnr?s=21&t=qNjn4XGRPh8TTfgHeX7A1w"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/amapianoleftandright?igsh=MTRxbzdwaWF2dHQ3Mw=="><i class="fab fa-instagram"></i></a>
+              <a href="https://www.tiktok.com/@amapianoleftandright?_t=ZM-8w04j2aKoS7&_r=1"><i class="fab fa-tiktok"></i></a>
             </div>
             <button>
             </button>
@@ -82,58 +82,58 @@
     <div class="figbody">
       <a href="https://bludevs.pixieset.com/amapianoleftandrightdebutedition/" target="blank">
         <figure>
-    <img src="../static-img/AMLR-1/cover.jpg" alt="Mountains">
+    <img src="../static-img/AMLR-1/cover.jpg" alt="Amapiano left and right">
     <figcaption>Debut Edition</figcaption>
 </figure>
       </a>
 
       <a href="https://bludevs.pixieset.com/amapianoleftandrightletthemusicbindus/" target="blank">
         <figure>
-    <img src="../static-img/AMLR-2/cover.jpg" alt="Mountains">
+    <img src="../static-img/AMLR-2/cover.JPG" alt="Amapiano left and right">
     <figcaption>Let the music bind us</figcaption>
 </figure>
       </a>
 
       <a href="https://bludevs.pixieset.com/amapianoleftandrightbringbackthegroove/" target="blank">
         <figure>
-    <img src="../static-img/AMLR-3/cover.jpg" alt="Mountains">
+    <img src="../static-img/AMLR-3/cover.JPG" alt="Amapiano left and right">
     <figcaption>Bring Back The Groove</figcaption>
 </figure>
       </a>
 
       <a href="https://bludevs.pixieset.com/amapianoleftandrightwegroovedifferent/" target="blank">
 <figure>
-    <img src="../static-img/AMLR-4/cover.jpg" alt="Mountains">
+    <img src="../static-img/AMLR-4/COVER.jpg" alt="Amapiano left and right">
     <figcaption>We Groove Different</figcaption>
 </figure>
       </a>
       <a href="https://bludevs.pixieset.com/amapianoleftandrightprettygirlsloveamapiano/" target="blank">
         <figure>
-    <img src="../static-img/AMLR-5/cover.jpg" alt="Mountains">
+    <img src="../static-img/AMLR-5/COVER.jpg" alt="Amapiano left and right">
     <figcaption>Pretty Girls Love Amapiano</figcaption>
 </figure>
       </a>
       <a href="https://bludevs.pixieset.com/amapianoleftandrightyourpianoisnotmypiano/" target="blank">
         <figure >
-    <img src="../static-img/AMLR-6/cover.jpg" alt="Mountains">
+    <img src="../static-img/AMLR-6/cOVER.JPG" alt="Amapiano left and right">
     <figcaption>Your Piano is not my Piano</figcaption>
 </figure>
       </a>
       <a href="https://bludevs.pixieset.com/amapianoleftandrightlagostojohannesburg/" target="blank">
         <figure>
-    <img src="../static-img/AMLR-7/cover.jpg" alt="Mountains">
+    <img src="../static-img/AMLR-7/COVER.JPG" alt="Amapiano left and right">
     <figcaption>Lagos to Johannesburg</figcaption>
 </figure>
       </a>
       <a href="https://bludevs.pixieset.com/amapianoleftandrightthelastdance/" target="blank">
         <figure >
-    <img src="../static-img/AMLR-8/cover.jpg" alt="Mountains">
+    <img src="../static-img/AMLR-8/COVER.JPG" alt="Amapiano left and right">
     <figcaption>The Last Dance</figcaption>
 </figure>
       </a>
       <a href="https://bludevs.pixieset.com/amapianoleftandrightwedanceagain/" target="blank">
         <figure>
-    <img src="../static-img/AMLR-9/cover.jpg" alt="Mountains">
+    <img src="../static-img/AMLR-9/COVER.JPG" alt="Amapiano left and right">
     <figcaption>We Dance Again</figcaption>
 </figure>
       </a>

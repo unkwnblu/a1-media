@@ -203,5 +203,9 @@ figure:hover img {
 .context-text {
   font-size: 1.4rem;
 }
+
+.d-sm-none {
+  display: none;
+}
 }
 

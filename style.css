@@ -397,6 +397,7 @@ nav {
         /* clip-path: circle(25px at calc(0% + 45px) 45px); */
         clip-path: circle(0px at calc(100% - 45px) 45px);
         transition: all 0.3s ease-in-out;
+        z-index: 9;
     }
 
     #active:checked~.wrapper {

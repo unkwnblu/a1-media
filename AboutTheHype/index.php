@@ -34,45 +34,7 @@
   <div class="container-fluid mt-5 mb-5">
     <div class="row">
       <div class="col-12">
-        <div class="containers">
-          <div class="ticket">
-            <i class="fas fa-arrow-right"></i>
-            <p>Entry : Absolutely FREE<p>
-            <div class="pic"></div>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-            <div class="social">
-              <i class="fab fa-twitter"><a href="https://x.com/amapianolnr?s=21&t=qNjn4XGRPh8TTfgHeX7A1w"></a></i>
-              <i class="fab fa-instagram"><a href="https://www.instagram.com/amapianoleftandright?igsh=MTRxbzdwaWF2dHQ3Mw=="></a></i>
-              <i class="fab fa-tiktok"><a href="https://www.tiktok.com/@amapianoleftandright?_t=ZM-8w04j2aKoS7&_r=1"></a></i>
-            </div>
-            <button>
-            </button>
-          </div>
-        </div>
+        <img src="../static-img/ath-logo.png" class="img-fluid" alt="About the hype">
       </div>
     </div>
   </div>
@@ -82,7 +44,7 @@
       <div class="col">
         <h3>EVENT DETAILS</h3>
         <ul class="event-details">
-                  <li>Date:Every Thursday</li>
+        <li>Date:Every Thursday</li>
         <li>Time:8 PM</li>
         <li>Venue:Chopilos, 873 Ozumba Mbadiwe, VI</li>
         <li>Entry:Absolutely FREE</li>

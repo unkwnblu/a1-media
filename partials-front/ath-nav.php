@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-lg-2 col-xl-2 col-xxl-4 col-4">
           <a class="navbar-brand" href="../index.php">
-            <img class="img-fluid" src="<?php echo SITEURL . 'static-img/ath-logo.png'; ?>" alt="About the Hype" width="150" height="75">
+            <img class="img-fluid" src="<?php echo SITEURL . 'logo.svg'; ?>" alt="About the Hype" width="50" height="50">
           </a>
         </div>
 
