@@ -39,7 +39,8 @@
   </div>
   <div class="boxes boxes-3 sticky top-0 h-screen flex flex-col items-center justify-center ">
     <h2 class="context-text font-bold"></h2>
-    <p class="mt-2 context-text">Join us on Saturday, May 31st at The Clubhouse, VI (Landmark Towers) for an unforgettable night of vibes, community, and music that hits deep. This isn’t just a party—it’s a full-on groove experience, and you don't want to miss it.</p>
+    <p class="mt-2 pb-3 context-text">Join us on Saturday, May 31st at The Clubhouse, VI (Landmark Towers) for an unforgettable night of vibes, community, and music that hits deep. This isn’t just a party—it’s a full-on groove experience, and you don't want to miss it.</p>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/CvZFZPw8jIE?si=mhkMgS0FHdUWmNch" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="boxes boxes-4 sticky top-0 h-screen flex flex-col items-center justify-center">
     <h2 class="context-text font-bold">Ticket Information</h2>
@@ -137,17 +138,53 @@
     <figcaption>We Dance Again</figcaption>
 </figure>
       </a>
-
-
-
-
-
-
-
     </div>
 
   </div>
+  
+  
 </div>
+
+<div class="container-fluid d-grid bg-dark pt-lg-5 p-3 items-center justify-center">
+            <div class="row p-2">
+                <div class="col-4">
+                    <a href="https://www.instagram.com/thea1media?igsh=MWNiaWVmZW5najBxdQ==">
+                        <img src="../static-img/instagram.png" class="img-fluid" alt="">
+                    </a>
+                    
+                </div>
+                <div class="col-4">
+                    <a href="https://x.com/thea1media?s=21&t=qNjn4XGRPh8TTfgHeX7A1w">
+                        <img src="../static-img/x.svg" class="img-fluid" alt="">
+                    </a>
+                    
+                </div>
+                <div class="col-4">
+                    <a href="https://www.facebook.com/share/1Ed57T2dF9/?mibextid=wwXIfr">
+                        <img src="../static-img/facebook.svg" class="img-fluid" alt="">
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+
+            <div>
+        <div class="container-fluid bg-dark mb-5">
+            <div class="row text-center">
+                <div class="col-12 ">
+                    <h5><u>CONTACT US</u></h5>
+
+
+                    A1@TheA1media.com<br>
+
+                    +2348168032026<br>
+
+                    Lekki, Lagos, Nigeria.<br>
+
+                </div>
+            </div>
+        </div>
+    </div>
           <script src="scripts/scripts.js"></script>
           <script src="https://cdn.tailwindcss.com"></script>
           <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>

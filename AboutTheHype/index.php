@@ -16,6 +16,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+  
 
     <?php include ('../partials-front/ath-nav.php'); ?>
  
@@ -73,6 +74,47 @@
     </div>
   </div>
 </div>
+<div class="container-fluid position-relative d-grid pt-lg-5 p-3 items-center justify-center">
+            <div class="row text-center p-2">
+              <div class="col-3">
+
+              </div>
+                <div class="col-3">
+                    <a href="https://www.instagram.com/aboutthehype.ng?igsh=MWVrMnIwYm1qd2kybw==">
+                        <img src="../static-img/instagram.png" class="img-fluid" alt="About The Hype Instagram">
+                    </a>
+                    
+                </div>
+                <div class="col-3">
+                    <a href="https://x.com/abouthehype?s=21&t=qNjn4XGRPh8TTfgHeX7A1w">
+                        <img src="../static-img/x.svg" class="img-fluid" alt="About the hype X">
+                    </a>
+                    
+                </div>
+                <div class="col-3">
+
+              </div>
+               
+            </div>
+        </div>
+
+            <div>
+        <div class="container-fluid position-relative mb-5">
+            <div class="row text-center">
+                <div class="col-12 ">
+                    <h5><u>CONTACT US</u></h5>
+
+
+                    A1@TheA1media.com<br>
+
+                    +2348168032026<br>
+
+                    Lekki, Lagos, Nigeria.<br>
+
+                </div>
+            </div>
+        </div>
+    </div>
 <!--[if IE 8]>         </div> <![endif]-->
           <footer>
             <div class="container-fluid pt-5 pb-5 mt-5 text-center">
